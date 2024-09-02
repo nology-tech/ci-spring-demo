@@ -46,7 +46,7 @@ public class BlogPostServiceUnitTest {
         data.setCategoryId(1L);
 
         BlogPost mockPost = new BlogPost();
-        mockPost.setTitle("covid");
+        mockPost.setTitle("neer");
         Category mockCategory = new Category();
         mockCategory.setName("test");
         Optional<Category> result = Optional.of(mockCategory);
