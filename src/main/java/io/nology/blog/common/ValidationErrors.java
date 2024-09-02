@@ -5,8 +5,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.fasterxml.jackson.core.JsonParser;
-
 public class ValidationErrors {
     private HashMap<String, ArrayList<String>> errors;
 
